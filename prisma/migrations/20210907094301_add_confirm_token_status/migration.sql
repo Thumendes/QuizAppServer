@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE `confirmtoken` ADD COLUMN `status` ENUM('PENDING', 'IGNORED', 'CONFIRMED') NOT NULL DEFAULT 'PENDING';
